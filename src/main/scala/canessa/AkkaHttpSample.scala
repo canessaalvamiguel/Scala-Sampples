@@ -15,7 +15,7 @@ object AkkaHttpSample extends App{
 
   val request = HttpRequest(
     method = HttpMethods.GET,
-    uri = "https://catfact4545.ninja/fact"
+    uri = "https://catfact.ninja/fact"
   )
 
   def sendRequest() = {
